@@ -1,8 +1,6 @@
 # TECL
 
-End-to-end Temporal Causal Learning (TECL) using Machine Learning.
-
-
+Deep Learning based End-to-end Temporal Causal Learning (TECL)
 
 # usage
 
