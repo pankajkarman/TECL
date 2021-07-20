@@ -5,7 +5,7 @@ Deep Learning based End-to-end Temporal Causal Learning (TECL)
 # usage
 
 ```python
-from tecl import TemporalCausalDiscovery, TemporalCausalEffect
+from causal import TemporalCausalDiscovery, TemporalCausalEffect
 
 tcl = TemporalCausalLearning(data)
 rel = tcl.discover(method='TCDF')
