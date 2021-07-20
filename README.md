@@ -10,7 +10,7 @@ End-to-end Temporal Causal Learning (TECL) using Machine Learning.
 from tecl import TemporalCausalDiscovery, TemporalCausalEffect
 
 tcl = TemporalCausalLearning(data)
-rel = tcl.discover()
+rel = tcl.discover(method='TCDF)
 g = tcl.generate_graph()
 
 model = TemporalCausalEffect(g, treatment, outcome)
